@@ -1,0 +1,125 @@
+@font-face {
+  font-family: timer-font;
+  src: url('./CursedTimerUlil-Aznm.ttf')
+}
+body {
+  margin: 0;
+  color: #EEEEEE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #c4a69d;
+}
+
+h3 { 
+  font-size: 40px;
+  margin-top: 28px;
+  margin-bottom: 21px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: #1C234A;
+  border-radius: 15px;
+  padding-bottom: 10px;
+
+}
+
+.scores-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-score-container {
+  background-color: #090001;
+  width: 155px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.leader-highlight {
+  box-sizing: border-box;
+  border: 2px solid #F94F6D;
+}
+
+.btns-container {
+  margin-top: 26px;
+  display: flex;
+  width: 155px;
+  justify-content: space-between;
+}
+
+.score-btn {
+  width: 45px;
+  height: 45px;
+  background-color: #1C234A;
+  border: 2px solid #9AAAD8;
+  border-radius: 3px;
+  color: #9AAAD8;
+  font-size: 18px;
+  font-family: timer-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+} 
+
+/* .btns-container > * {
+  width: 45px;
+  height: 45px;
+  background-color: #1C234A;
+  border: 2px solid #9AAAD8;
+  border-radius: 3px;
+  color: #9AAAD8;
+  font-size: 18px;
+  font-family: timer-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+} */
+
+.score-btn:hover {
+  color: #EEEEEE;
+  border: 2px solid #EEEEEE;
+  cursor: pointer;
+}
+
+.score {
+  color: #F94F6D;
+  margin: 0;
+  padding: 0;
+  font-size: 90px;
+  font-family: timer-font;
+} 
+
+#reset-game-btn {
+  padding: 0;
+  height: 45px;
+  margin: 26px auto;
+  width: 380px;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: timer-font;
+  border: 2px solid #9AAAD8;
+  color: #9AAAD8;
+  background-color: #1C234A;
+}
+
+#reset-game-btn:hover {
+  border: 2px solid #F94F6D;
+  color: #F94F6D;
+  cursor: pointer;
+}
